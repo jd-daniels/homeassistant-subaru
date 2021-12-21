@@ -32,13 +32,13 @@ class NotificationOptions(Enum):
 
 
 # entry fields
-ENTRY_CONTROLLER = "controllerjd"
-ENTRY_COORDINATOR = "coordinatorjd"
-ENTRY_VEHICLES = "vehiclesjd"
-ENTRY_LISTENER = "listenerjd"
+ENTRY_CONTROLLER = "controller"
+ENTRY_COORDINATOR = "coordinator"
+ENTRY_VEHICLES = "vehicles"
+ENTRY_LISTENER = "listener"
 
 # update coordinator name
-COORDINATOR_NAME = "subaru_data_jd"
+COORDINATOR_NAME = "subaru_data"
 
 # info fields
 VEHICLE_VIN = "vin"
@@ -55,17 +55,17 @@ API_GEN_1 = "g1"
 API_GEN_2 = "g2"
 MANUFACTURER = "Subaru Corp."
 
-REMOTE_SERVICE_FETCH = "fetch_jd"
-REMOTE_SERVICE_UPDATE = "update_jd"
-REMOTE_SERVICE_LOCK = "lock_jd"
-REMOTE_SERVICE_UNLOCK = "unlock_jd"
-REMOTE_SERVICE_LIGHTS = "lights_jd"
-REMOTE_SERVICE_LIGHTS_STOP = "lights_stop_jd"
-REMOTE_SERVICE_HORN = "horn_jd"
-REMOTE_SERVICE_HORN_STOP = "horn_stop_jd"
-REMOTE_SERVICE_REMOTE_START = "remote_start_jd"
-REMOTE_SERVICE_REMOTE_STOP = "remote_stop_jd"
-REMOTE_SERVICE_CHARGE_START = "charge_start_jd"
+REMOTE_SERVICE_FETCH = "fetch"
+REMOTE_SERVICE_UPDATE = "update"
+REMOTE_SERVICE_LOCK = "lock"
+REMOTE_SERVICE_UNLOCK = "unlock"
+REMOTE_SERVICE_LIGHTS = "lights"
+REMOTE_SERVICE_LIGHTS_STOP = "lights_stop"
+REMOTE_SERVICE_HORN = "horn"
+REMOTE_SERVICE_HORN_STOP = "horn_stop"
+REMOTE_SERVICE_REMOTE_START = "remote_start"
+REMOTE_SERVICE_REMOTE_STOP = "remote_stop"
+REMOTE_SERVICE_CHARGE_START = "charge_start"
 
 SUPPORTED_PLATFORMS = [
     Platform.BINARY_SENSOR,
