@@ -1,6 +1,6 @@
 {
-  "domain": "subaru",
-  "name": "Subaru (HACS)",
+  "domain": "subarujd",
+  "name": "Subaru (HACS) Secondary",
   "config_flow": true,
   "documentation": "https://github.com/G-Two/homeassistant-subaru",
   "issue_tracker": "https://github.com/G-Two/homeassistant-subaru/issues",
