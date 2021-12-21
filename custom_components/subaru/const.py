@@ -3,7 +3,7 @@ from enum import Enum
 
 from homeassistant.const import Platform
 
-DOMAIN = "subaru"
+DOMAIN = "subaru_jd"
 FETCH_INTERVAL = 300
 UPDATE_INTERVAL = 7200
 CONF_UPDATE_ENABLED = "update_enabled"
