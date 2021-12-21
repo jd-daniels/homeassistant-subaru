@@ -1,5 +1,5 @@
 # Describes the format for available services for subaru
-lights:
+lights_jd:
   description: >
     Flash the lights of the vehicle. The vehicle is identified via the vin
     (see below).
@@ -9,7 +9,7 @@ lights:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-lights_stop:
+lights_stop_jd:
   description: >
     Stop flashing the lights of the vehicle. The vehicle is identified via the vin
     (see below).
@@ -19,7 +19,7 @@ lights_stop:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-horn:
+horn_jd:
   description: >
     Sound the horn of the vehicle. The vehicle is identified via the vin
     (see below).
@@ -29,7 +29,7 @@ horn:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-horn_stop:
+horn_stop_jd:
   description: >
     Stop sounding the horn of the vehicle. The vehicle is identified via the vin
     (see below).
@@ -39,7 +39,7 @@ horn_stop:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-remote_start:
+remote_start_jd:
   description: >
     Start the engine and climate control of the vehicle.  Uses the climate control settings saved. The vehicle is identified via
     the vin (see below).
@@ -49,7 +49,7 @@ remote_start:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-remote_stop:
+remote_stop_jd:
   description: >
     Stop the engine and climate control of the vehicle. The vehicle is identified via the vin
     (see below).
@@ -59,7 +59,7 @@ remote_stop:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-charge_start:
+charge_start_jd:
   description: >
     Starts EV charging. This cannot be stopped remotely. The vehicle is identified via the vin
     (see below).
@@ -69,7 +69,7 @@ charge_start:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-update:
+update_jd:
   description: >
     Sends request to vehicle to update data. The vehicle is identified via the vin
     (see below).
@@ -79,7 +79,7 @@ update:
         The vehicle identification number (VIN) of the vehicle, 17 characters
       example: JF2ABCDE6L0000001
 
-fetch:
+fetch_jd:
   description: >
     Refreshes data (does not request update from vehicle). The vehicle is identified via the vin
     (see below).
