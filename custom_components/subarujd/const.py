@@ -32,13 +32,13 @@ class NotificationOptions(Enum):
 
 
 # entry fields
-ENTRY_CONTROLLER = "controller"
-ENTRY_COORDINATOR = "coordinator"
-ENTRY_VEHICLES = "vehicles"
-ENTRY_LISTENER = "listener"
+ENTRY_CONTROLLER = "controllerjd"
+ENTRY_COORDINATOR = "coordinatorjd"
+ENTRY_VEHICLES = "vehiclesjd"
+ENTRY_LISTENER = "listenerjd"
 
 # update coordinator name
-COORDINATOR_NAME = "subaru_data"
+COORDINATOR_NAME = "subaru_data_jd"
 
 # info fields
 VEHICLE_VIN = "vin"
