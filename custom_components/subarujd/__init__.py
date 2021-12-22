@@ -57,7 +57,7 @@ async def async_setup(hass, base_config):
 async def async_setup_entry(hass, entry):
     """Set up Subaru from a config entry."""
     config = entry.data
-    websession = aiohttp_client.async_get_clientsession(hass)
+    websession = aiohttp_client.async_create_clientsession(hass)                     
 
     # Backwards compatibility for configs made before v0.3.0
     country = config.get(CONF_COUNTRY)
